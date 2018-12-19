@@ -1,0 +1,109 @@
+img {
+    width: 100%;
+}
+
+.opcs {
+    margin-top: 0px;
+    height: 320px;
+}
+
+#foto1 {
+    background-image: url(../IMG/FIG/FIG2.jpg);
+    width: 48%;
+    height: 360px;
+    float: left;
+    background-size: contain; background-repeat: no-repeat;
+}
+
+#foto2 {
+    background-image: url(../IMG/FIG/FIG5.jpg);
+    width: 48%;
+    height: 360px;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#foto9 {
+    background-image: url(../IMG/FIG/FIG6.jpg);
+    width: 48%;
+    height: 360px;
+    float: left;
+    background-size: contain; background-repeat: no-repeat;
+}
+
+#foto8 {
+    background-image: url(../IMG/FIG/FIG7.jpg);
+    width: 48%;
+    height: 360px;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    margin: 0; 
+    font-weight: 600;
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+    text-shadow: none;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+}
+
+h2:hover h4:hover {
+    color: black;
+    text-decoration: underline;
+} 
+
+.contenedor-aventuras {
+    margin-top: 30px;
+}
+
+a:hover {
+    color: black;
+}
+
+#titulo {
+    font-size: 3.5em; 
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+    #foto1, #foto2 {
+        width: 100%;
+        height: 230px;
+        float: left;
+    }
+    #foto9, #foto8 {
+        width: 100%;
+        height: 230px;
+        float: left;
+    }
+    
+    .opcs {
+        height:150px;
+    }
+    
+    #logofig {
+        width: 40%;
+    }
+    
+    #titulo {
+        margin-top: 0px;
+        font-size: 1.8em;
+    }
+    
+    #subtitulo {
+        font-size: 1.25em;
+    }
+    
+    #letrero {
+        padding-top: 30px;
+    }
+}

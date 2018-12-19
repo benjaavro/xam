@@ -1,0 +1,599 @@
+/* LINK TEST */
+
+/* html {
+    background-color: dodgerblue;
+} */
+
+
+.nav-link {
+    color: white;
+    margin-left: 4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.nav-link:active {
+    color: yellow;
+}
+
+.dropdown-item {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-item:hover {
+    color: black;
+    background-color: yellow;
+    opacity: 0.8;
+}
+
+.navbar-toggler .navbar-toggler-right {
+    background-color: white !important;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    margin-left: -4px;
+    background-image: url(IMG/BRUJULA.png);
+    background-position: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.2em;
+    min-height: auto;
+    margin-top: -100px;
+}
+
+.test {
+    background-color: lightblue;
+    height: 400px;
+}
+
+#quotePt1 {
+    font-family: 'Faith And Glory One', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#quotePt2 {
+    font-family: 'Faith And Glory Two', cursive;
+    margin-top: -20px;
+    text-align: center;
+}
+
+#botones {
+    margin: auto;
+}
+
+#boton1 { 
+    height: 60px;
+    width: 260px;
+    background-color: yellow;
+    opacity: 1;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: none;
+    color: black;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    left: 290px;
+}
+
+#boton1:hover, #boton2:hover {
+    border: 0px solid black;
+    background-color: lightyellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#boton2 { 
+    height: 60px;
+    width: 260px;
+    background-color: yellow;
+    opacity: 1;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: none;
+    color: black;
+    padding: 17px;
+   font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    top: -60px;
+    left: 590px;
+}
+
+
+@media (max-width: 576px) { 
+    #boton1 {
+        font-size: 0.65em;
+        margin-top: 50px;
+        height: 52px;
+        width: 140px;
+        padding: 11px;
+        position: relative;
+        top: 65px;
+        left: 25px;
+    }
+    
+    #boton2 {
+        font-size: 0.65em;
+        height: 52px;
+        width: 140px;
+        padding: 11px;
+        position: relative;
+        top: 13px;  
+        left: 170px;
+    }
+    
+    #razones {
+        font-size: 1.5em;
+    }
+    
+    .jumbotron {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    #boton1 {
+        margin-top: 400px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #boton1 {
+        margin-top: 450px;
+        margin-bottom: 0;
+    }
+}
+
+.banner {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+#razones {
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-left: 30px;
+    padding-top: 18px;
+    background-color: black;
+}
+
+@media (max-width: 576px) { 
+    .banner {
+        height: 55px;
+    }
+    
+    #razones {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.05em;
+        padding-top: 17px;
+        margin-left: 20px;
+    }
+}
+
+.container-fluid {
+    height: auto;
+}
+
+.razon {
+    font-family: 'Montserrat', sans-serif;
+    height: 200px;
+}
+
+.negro {
+    background-color: black;
+    color: white;
+}
+
+.amarillo {
+    background-color: yellow;
+    color: black;
+}
+
+.razon:hover {
+    background-color: white;
+    color: black;
+}
+
+.piso1 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.piso2 {
+    padding-right: 30px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.servicios {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.banner {
+    background-color: black;
+}
+
+.card-img-top {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+}
+
+.card-img-top:hover {
+    opacity: 0.8;
+}
+
+.card {
+    width: 33.333%;
+    border: 0;
+    background-color: black;
+    border-radius: 0;
+}
+
+.card-block {
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.card-title {
+    color: yellow;
+    font-family: 'Montserrat', sans-serif
+}
+
+#titulo-tarjeta {
+    color: yellow;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) { 
+    .card {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+#quote {
+    background-image: url(IMG/quoteBIG2.png);
+    background-size: 100%;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    border: 0;
+}
+
+@media (max-width: 768px) { 
+    #quote {
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #quote {
+        height: 100px;
+        background-size: 100% 100%;
+    }
+}
+
+.formulario {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+#header-formulario {
+    margin-top: 35px;
+}
+
+#titulo-formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+#texto-titulo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#lado-izq-form {
+    height: 410px;
+}
+
+#lado-der-form {
+    height: 410px;
+}
+
+#nombre {
+    margin-top: 10px;
+}
+
+.form-labels {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+    margin-top: -10px;
+    border: 2px solid black;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+#aceptar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+}
+
+a {
+    color: black;
+}
+
+#example-text-input-msg {
+    height: 320px;
+}
+
+#boton-enviar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: right;
+    background-color: white;
+    border: 0;
+    margin-left: 515px;
+    margin-top: -10px;
+}
+
+#boton-enviar:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    #boton-enviar {
+        margin-left: 100px;
+    }
+}
+
+.footer {
+    background-color: black;
+}
+
+#titulo-footer {
+    color: yellow;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#contacto-footer {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 130%;
+}
+
+#footerPt2 {
+    border-top: 2px solid yellow;
+    padding-top: 10px;
+}
+
+.footer-item {
+    color: yellow;
+    display: inline; 
+}
+
+#footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-footer {
+    margin-right: -10px;
+}
+
+@media (max-width: 576px) {
+    .logo-footer {
+        margin-left: 55px;
+    }
+    
+    #inicio-footer {
+        margin-top: 10px;
+    }
+    
+    #contacto-footer {
+        font-size: 12px;
+    }
+    
+    .footer-item {
+        margin-left: -20px;
+    }
+}
+
+#developer-contact1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+#developer-contact2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center; 
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#devguyIG {
+    color: white;
+}
+
+#SN {
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    #developer-contact1 {
+        color: white;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+
+    #developer-contact2 {
+        color: white;
+        margin-left: 25px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    #titulo-footer {
+        font-size: 1.8em;
+    }
+}
+
+#banner_tienda {
+    height: 500px;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
+}
+
+#letrero_comprar {
+    color: white;
+    font-size: 4em;
+    padding-top: 40px;
+}
+
+#boton-tienda {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    height: 80px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 20%;
+    position: absolute;
+    font-size: 1.4em;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#boton-reservar {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    height: 80px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 55%;
+    position: absolute;
+    font-size: 1.4em;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#boton-tienda:hover, #boton-reservar:hover {
+    background-color: white;
+    color: black;
+}
+
+#logo-transparente {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -70px;
+}
+
+
+
+@media (max-width: 576px) {
+    #banner_tienda {
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+    }
+    
+    #letrero_comprar {
+        color: white;
+        font-size: 2em;
+        padding-top: 20px;
+    }
+    
+    #boton-tienda {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        height: 80px;
+        width: 200px;
+        margin-top: 140px;
+        margin-left: 18%;
+        position: absolute;
+        font-size: 1em;
+        padding-top: 25px;
+        padding-left: 40px;
+    }
+
+    #boton-reservar {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        height: 80px;
+        width: 200px;
+        margin-top: 240px;
+        margin-left: 18%;
+        position: absolute;
+        font-size: 1em;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    
+    #logo-transparente {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: -40px;
+    }
+
+}

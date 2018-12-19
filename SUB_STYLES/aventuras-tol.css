@@ -1,0 +1,80 @@
+img {
+    width: 100%;
+}
+
+.opcs {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.opcs2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 110px;
+    margin-top: 50px;
+}
+
+
+h2 {
+    margin: 0; 
+    font-weight: 600;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    text-shadow: none;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+}
+
+h2:hover h4:hover {
+    color: black;
+    text-decoration: underline;
+} 
+
+.contenedor-aventuras {
+    margin-top: 30px;
+    height: auto;
+}
+
+a:hover {
+    color: black;
+}
+@media (max-width: 576px) {
+    #logofig {
+        width: 40%;
+    }
+    
+    #letrero {
+        padding-top: 20px;
+    }
+    
+    .contenedor-aventuras {
+        height: auto;
+    }
+    
+    h1 {
+        margin-top: 10px;
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    .opcs {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        height: auto;
+    }
+    
+    .opcs2 {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        height: auto;
+    }
+}

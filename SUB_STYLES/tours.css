@@ -1,0 +1,93 @@
+#contenedor-tours {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 5em;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+}
+
+@media (max-width: 768px) { 
+    h1 {
+        font-size: 2.4em;
+    }
+    
+    h3 {
+        font-size: 1.75em;
+    }
+}
+
+p {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+ul {
+    text-decoration: none;
+}
+
+#podemos {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+#palmas {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#dona {
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+    .mitad {
+        width: 100%;
+    }
+}
+
+#letrero {
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    text-align: left;
+    padding-top: 35px;
+}
+
+#lado-izq-form {
+    height: 820px;
+}
+
+#lado-der-form {
+    height: 820px;
+}
+
+#example-text-input-msg {
+    height: 752px;
+}
+
+@media (max-width: 768px) {
+    #example-text-input-msg {
+        height: 360px;
+    }
+
+    #lado-der-form {
+        height: auto;
+        margin-top: 15px;
+    }
+}

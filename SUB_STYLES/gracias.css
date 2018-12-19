@@ -1,0 +1,60 @@
+#letrero {
+    width: 100%;
+    height: 550px;
+    background-color: lightgoldenrodyellow;
+}
+
+#gracias {
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+#texto-gracias {
+    margin: auto;
+    padding-top: 0px;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+#boton-gracias {
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#boton-gracias:hover {
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    border: 2px solid black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    #gracias {
+        font-size: 3em;
+    }
+}
