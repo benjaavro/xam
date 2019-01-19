@@ -14,6 +14,7 @@
       
     <!-- Fonts -->  
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
       
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -29,7 +30,7 @@
   </head>
   <body>
 
-      <!-- Barra de navegación -->
+    <!-- Barra de navegación -->
       
     <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +59,7 @@
                     <a class="dropdown-item" href="TOURS/aventura.html">Aventura</a>
                     <a class="dropdown-item" href="TOURS/eventos.html">Eventos</a>
                     <a class="dropdown-item" href="TOURS/solPlaya.html">Sol y Playa</a>
+                    <a class="dropdown-item" href="TOURS/internacionales.html">Internacionales</a>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -72,12 +74,9 @@
               <li class="nav-item">
                     <a class="nav-link" href="https://www.kichink.com/stores/xtremeadventuremx/" target="_blank">Tienda</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/xtremeadventuremx/" target="_blank">Galería</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Información
+                  Nosotros
                 </a>
                 <div class="dropdown-menu bg-inverse" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="redes_sociales.html">Redes Sociales</a>
@@ -91,104 +90,148 @@
       
     <!-- JUMBOTRON -->  
       
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <a href="calendario2019.html">
-                <div id="boton1">
-                    Ver Calendario 2019 
-                </div>
+    <div class="jumbotron-fluid" style="height: auto;">
+        <video autoplay muted loop playsinline id="myVideo" style="width: 100%;">
+            <source src="VIDEO/JUMBOTRON.mp4" type="video/mp4">
+        </video>
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="contenido">
+          <h1 style="font-family: 'Montserrat', sans-serif;
+    font-weight: 700; font-size: 60px;">Vive la aventura</h1>
+          <p style="font-family: 'Montserrat', sans-serif;">AGENCIA DE EXPERIENCIAS</p>
+        </div>
+    </div>
+      
+    <!-- Banner de Calendario 2019 -->
+    <div class="container-fluid banner-calendario">
+        <div class="columna col-lg-6 col-sm-12 a">
+            <img src="IMG/COLLAGE.png" id="collage">
+        </div>
+        <div class="columna col-lg-6 col-sm-12 b">
+            <p class="banner-text" style="font-size: 22px;">CONOCE NUESTRO</p>
+            <h1 class="banner-text" style="font-weight: 700; margin-top: -15px;">CALENDARIO 2019</h1>
+            <p class="banner-text">Las mejores aventuras que hemos cuidadosamente preparado para ti.</p>
+            <a href="calendario2019.html" style="text-decoration: none;">
+                <div id="boton-calendario">Ver Calendario</div>
             </a>
         </div>
     </div>
       
-    <!-- Sección de razones para viajar con Xtreme Adventure -->  
-      
-    <div class="banner">
-      <h1 id="razones">Razones para viajar con nosotros: </h1>
-    </div>
-      
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 razon negro piso1" >
-                <h1>1.</h1>
-                <h4>Servicio y atención personalizada.</h4>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 razon amarillo piso1">
-                <h1>2.</h1>
-                <h4>Cómodo y seguro.</h4>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 razon negro piso1">
-                <h1>3.</h1>
-                <h4>Nos apasiona brindar nuevas experiencias.</h4>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 razon amarillo piso2">
-                <h1>4.</h1>
-                <h4>Ambiente familiar y de convivencia.</h4>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 razon negro piso2">
-                <h1>5.</h1>
-                <h4>Cero estrés, nosotros nos encargamos.</h4>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 razon amarillo piso2">
-                <h1>6.</h1>
-                <h4>Experiencias inolvidables.</h4>
-            </div>
-        </div>
-    </div>
-      
-    <!-- Sección de presentación de productos principales. -->  
-      
-      <!-- Banner de productos -->
-    <div class="banner">
-      <h1 id="razones" class="servicios">NUESTROS SERVICIOS</h1>
-    </div>
-      
-      <!-- Tarjetas de productos -->
-      
-    <div class="container-fluid">
-        <div class="row">
-            <div class="card">
-                <a href="aventuras.html">
-                    <img class="card-img-top" src="IMG/AVENTURA.jpg" alt="Card image cap">
-                </a>
-                <a href="aventuras.html" id="titulo-tarjeta"> 
-                  <div class="card-block">
-                    <h4 class="card-title">Aventuras</h4>
-                    <p class="card-text">A la medida! Aventúrate con amigos, familias o colegas.</p>
-                  </div>
-                </a>
-            </div>
-            
-            <div class="card">
-                <a href="transporte.html">
-                    <img class="card-img-top" src="IMG/TRANSPORTE.jpg" alt="Card image cap">
-                </a>
-                <a href="transporte.html" id="titulo-tarjeta"> 
-                    <div class="card-block">
-                        <h4 class="card-title">Transporte</h4>
-                        <p class="card-text">Múltiples destinos! Tu di a donde y nosotros te llevamos.</p>
-                    </div>
-                </a>
-            </div>
-            
-            <div class="card">
-                <a href="tours.html">
-                    <img class="card-img-top" src="IMG/MAPA.jpg" alt="Card image cap">
-                </a>
-                <a href="tours.html" id="titulo-tarjeta">       
-                    <div class="card-block">
-                        <h4 class="card-title">Tours</h4>
-                        <p class="card-text">Diseñados para ti! Eventos especiales que no podrás perderte.</p>
-                      </div>
-                </a>
-            </div>
-        </div>  
-    </div>
-      
     <!-- Banner con Quote --->
     <div class="container-fluid" id="quote">
-      
+
     </div>
+      
+    <!-- Banner de productos -->
+    <div class="container-fluid" id="tipos-tours">
+        <div class="conatiner">
+            <p class="relleno" >Las mejores propuestas turísticas en viajes grupales para conocer nuestro lindo México.</p>
+        </div>
+        <div class="container-fluid">
+            <a href="calendario2019.html">
+                <div class="largo col-lg-6 col-sm-12 tipo" id="t1">
+                    <p class="tour-tittle">Todos los Tours</p>
+                </div>
+            </a>
+            <a href="TOURS/aventura.html">
+                <div class="chico col-lg-3 col-sm-6 tipo" id="t2">
+                    <p class="tour-tittle">Aventura</p>
+                </div>
+            </a>
+            <a href="TOURS/deTemporada.html">
+                <div class="chico col-lg-3 col-sm-6 tipo" id="t3">
+                    <p class="tour-tittle" id="dT">De Temporada</p>
+                </div>
+            </a>
+        </div>
+        <div class="container-fluid">
+            <a href="TOURS/eventos.html">
+                <div class="chico col-lg-3 col-sm-6 tipo" id="t4">
+                    <p class="tour-tittle">Eventos</p>
+                </div>
+            </a>
+            <a href="TOURS/pueblosMagicos.html">
+                <div class="chico col-lg-3 col-sm-6 tipo" id="t5">
+                    <p class="tour-tittle" id="pM">Pueblos Mágicos</p>
+                </div>
+            </a>
+            <a href="TOURS/internacionales.html">
+                <div class="largo col-lg-6 col-sm-12 tipo" id="t6" style="">
+                    <p class="tour-tittle">Internacionales</p>
+                </div>
+            </a>
+        </div>
+    </div>  
+      
+    <!-- Slider de fotos -->
+      <!-- Slideshow container -->
+      
+    <div class="slideshow-container"  style="width: 100%;">
+        <div class="container">
+            <h2 class="texttt" style="font-weight: 700;">Instagram Feed</h2>
+            <p class="texttt">¡Síguenos en Instagram!</p>
+        </div>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 7</div>
+        <img src="IMG/SLIDER/SLIDE_1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 7</div>
+        <img src="IMG/SLIDER/SLIDE_2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 7</div>
+        <img src="IMG/SLIDER/SLIDE_3.jpg" style="width:100%">
+      </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="IMG/SLIDER/SLIDE_4.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="IMG/SLIDER/SLIDE_5.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="IMG/SLIDER/SLIDE_6.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="IMG/SLIDER/SLIDE_7.jpg" style="width:100%">
+        </div>
+    </div>
+    <br>
+
+      
+    <!-- Instagram Feed --->
+    <div class="container-fluid" id="instagram">
+        <h2 id="titulo-ig">Instagram Feed</h2>
+        <div class="col-lg-4 col-sm-12 ig-post ig-post1">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Br58-6NnBcX/?utm_source=ig_web_copy_link" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+            </blockquote>
+        </div>
+        <div class="col-lg-4 col-sm-12 ig-post ig-post2">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BqNTr89nF65/?utm_source=ig_web_copy_link" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; min-width:80%; padding:0; width:90%;">
+            </blockquote>
+        </div>
+        <div class="col-lg-4 col-sm-12 ig-post ig-post3">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Br59AnOHpqK/?utm_source=ig_web_copy_link" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+            </blockquote>   
+        </div>
+    </div>
+      <a href="https://www.instagram.com/xtremeadventuremx/" target="_blank">
+        <div class="container-fluid" style="background-color: white; height: auto;">
+            <div id="boton-ig">Visitar Perfil</div>
+        </div>
+      </a>
       
     <!-- Contact Form -->
     <div class="container-fluid formulario">
@@ -274,7 +317,12 @@
     <div class="container-fluid footer">
         <div class="row">
             <h1 class="col-12" id="titulo-footer">¡CONTÁCTANOS!</h1>
-            <h4 class="col-12" id="contacto-footer">mail: contacto@xtremeadventuremx.com<br>tel: (722) 611 5154 / (722) 512 7580<br><a href="https://www.facebook.com/xtremeadventuremexico/" id="SN">Facebook</a> | <a href="https://www.instagram.com/xtremeadventuremex/" id="SN">Instagram</a> | <a href="#" id="SN">Snapchat</a></h4>
+            <h4 class="col-12" id="contacto-footer">mail: contacto@xtremeadventuremx.com<br>tel: (722) 611 5154 / (722) 512 7580<br>
+            <a href="https://www.facebook.com/xtremeadventuremx/" target="_blank" id="SN"><i class="fab fa-facebook-square" style="font-size:48px;"></i></a>
+            
+            <a href="https://www.instagram.com/xtremeadventuremx/" target="_blank" id="SN"><i class="fab fa-instagram" style="font-size:48px; margin-left: 20px; margin-right: 10px;"></i></a>
+            
+            <a href="#" target="_blank" id="SN"><i class="fab fa-snapchat" style="font-size:48px;"></i></a></h4>
         </div>
         <div class="container">
             <div class="row" id="footerPt2">
@@ -287,14 +335,16 @@
                             <a class="nav-link" href="index.html" id="inicio-footer" >Inicio<span class="sr-only">(current)</span></a>
                           </div>
                           <div class="col-1.5 footer-item">
-                            <a class="nav-link" href="aventuras.html">Aventuras<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="calendario2019.html">Calendario 2019<span class="sr-only">(current)</span></a>
                           </div>
                           <div class="col-1.5 footer-item">
-                            <a class="nav-link" href="tours.html">Tours<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="tours.html">Tours Privados<span class="sr-only">(current)</span></a>
                           </div>
-                            <a class="nav-link" href="https://www.instagram.com/xtremeadventuremx/" target="_blank">Galería<span class="sr-only">(current)</span></a>
                           <div class="col-1.5 footer-item">
-                            <a class="nav-link" href="quienessomos.html">Información<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="transporte.html">Transporte<span class="sr-only">(current)</span></a>
+                          </div>
+                          <div class="col-1.5 footer-item">
+                            <a class="nav-link" href="quienessomos.html">Nosotros<span class="sr-only">(current)</span></a>
                           </div>
     
             </div>
@@ -312,5 +362,48 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {slideIndex = 1} 
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+          }
+          slides[slideIndex-1].style.display = "block";
+        }  
+        
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1} 
+          slides[slideIndex-1].style.display = "block"; 
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+      
+    <script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
   </body>
 </html>

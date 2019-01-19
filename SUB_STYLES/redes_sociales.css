@@ -69,3 +69,11 @@ p {
 iframe {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    #letrero {
+        height: 100px;
+        width: 100%;
+        padding-top: 30px;
+    }
+}
