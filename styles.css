@@ -1028,6 +1028,13 @@ a {
     text-align: center;
 }
 
+.fa-money-bill-alt {
+   margin-left: 20px; margin-right: 70px;
+}
+    
+.fa-credit-card{
+   margin-left: 70px; margin-right: 20px;
+}
 
 @media (max-width: 768px) {
     #instagram {
@@ -1040,7 +1047,23 @@ a {
         visibility: visible;
     }
     
+    .modal-content {
+        margin-top: 100px;
+        height: 550px;
+    }
     
+    #tittle-modal {
+        padding-top: 10px;
+    }
+    
+    .efectivo {
+        margin-left: 15px;
+    }
+    
+    .tarjeta {
+        margin-top: 10px;
+        margin-right: 15px;
+    }
 }
 
 .relleno {
