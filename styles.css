@@ -1072,3 +1072,19 @@ a {
     color: black;
     margin-left: 20px;
 }
+
+#jumbotron-viaje {
+    background-image: url(IMG/COMPRAR_VIAJES/REALDE14_JULIO.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 170px;
+}
+
+.contenedor-aventuras {
+    
+}
+
+.ver-info {
+    height: 170px;
+    text-align: center;
+}
