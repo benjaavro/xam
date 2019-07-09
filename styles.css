@@ -1074,17 +1074,41 @@ a {
 }
 
 #jumbotron-viaje {
-    background-image: url(IMG/COMPRAR_VIAJES/REALDE14_JULIO.jpeg);
     background-position: center;
     background-size: cover;
     padding-top: 170px;
 }
 
-.contenedor-aventuras {
-    
-}
-
 .ver-info {
     height: 170px;
     text-align: center;
+}
+
+.listas li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: yellow; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+    font-size: 1.5em;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -0.85em; /* Also needed for space (tweak if needed) */
+}
+
+.itinerario-button {
+    background-color: yellow;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.itinerario-info {
+    padding-top: 20px;
+    display: none;
+}
+
+#show:hover, #hide:hover {
+    text-decoration: underline;
+}
+
+#titulo-viaje {
+    font-family: 'Shadows Into Light', cursive;
 }
